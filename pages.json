@@ -1,0 +1,149 @@
+{
+	"pages": [
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationBarBackgroundColor": "#B8C5F2",
+				"navigationBarTextStyle": "white",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationBarBackgroundColor": "#B8C5F2",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/record-list/record-list",
+			"style": {
+				"navigationBarTitleText": "识别记录",
+				"navigationBarBackgroundColor": "#B8C5F2",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/mushroom-list/mushroom-list",
+			"style": {
+				"navigationBarTitleText": "野生菌科普",
+				"navigationBarBackgroundColor": "#B8C5F2",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/settings/settings",
+			"style": {
+				"navigationBarTitleText": "设置",
+				"navigationBarBackgroundColor": "#B8C5F2",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/result/result",
+			"style": {
+				"navigationBarTitleText": "识别结果",
+				"navigationBarBackgroundColor": "#B8C5F2",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/record-detail/record-detail",
+			"style": {
+				"navigationBarTitleText": "记录详情",
+				"navigationBarBackgroundColor": "#B8C5F2",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/mushroom-detail/mushroom-detail",
+			"style": {
+				"navigationBarTitleText": "科普详情",
+				"navigationBarBackgroundColor": "#B8C5F2",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/feedback/feedback",
+			"style": {
+				"navigationBarTitleText": "提交反馈",
+				"navigationBarBackgroundColor": "#B8C5F2",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/feedback-list/feedback-list",
+			"style": {
+				"navigationBarTitleText": "反馈记录",
+				"navigationBarBackgroundColor": "#B8C5F2",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/feedback-result/feedback-result",
+			"style": {
+				"navigationBarTitleText": "反馈结果",
+				"navigationBarBackgroundColor": "#B8C5F2",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/user-profile/user-profile",
+			"style": {
+				"navigationBarTitleText": "个人信息",
+				"navigationBarBackgroundColor": "#B8C5F2",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "野生菌智慧识别",
+		"navigationBarBackgroundColor": "#B8C5F2",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#999999",
+		"selectedColor": "#B8C5F2",
+		"backgroundColor": "#ffffff",
+		"borderStyle": "black",
+		"list": [
+			{
+				"pagePath": "pages/home/home",
+				"text": "首页",
+				"iconPath": "static/tabbar/home.png",
+				"selectedIconPath": "static/tabbar/home-active.png"
+			},
+			{
+				"pagePath": "pages/record-list/record-list",
+				"text": "记录",
+				"iconPath": "static/tabbar/record.png",
+				"selectedIconPath": "static/tabbar/record-active.png"
+			},
+			{
+				"pagePath": "pages/mushroom-list/mushroom-list",
+				"text": "科普",
+				"iconPath": "static/tabbar/encyclopedia.png",
+				"selectedIconPath": "static/tabbar/encyclopedia-active.png"
+			},
+			{
+				"pagePath": "pages/settings/settings",
+				"text": "设置",
+				"iconPath": "static/tabbar/settings.png",
+				"selectedIconPath": "static/tabbar/settings-active.png"
+			}
+		]
+	},
+	"uniIdRouter": {}
+}
