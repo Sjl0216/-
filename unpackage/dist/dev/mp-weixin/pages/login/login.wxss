@@ -1,0 +1,117 @@
+
+.login-container.data-v-e4e4508d {
+	width: 100vw;
+	height: 100vh;
+	background: linear-gradient(180deg, #B8C5F2 0%, #D4DBF5 50%, #E8EBF8 100%);
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+.login-wrapper.data-v-e4e4508d {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 0 60rpx;
+	box-sizing: border-box;
+}
+.header.data-v-e4e4508d {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 100rpx;
+	flex-shrink: 0;
+}
+.logo.data-v-e4e4508d {
+	width: 180rpx;
+	height: 180rpx;
+	border-radius: 40rpx;
+	background-color: #fff;
+	margin-bottom: 40rpx;
+	box-shadow: 0 8rpx 24rpx rgba(102, 126, 234, 0.15);
+}
+.title.data-v-e4e4508d {
+	font-size: 44rpx;
+	font-weight: 600;
+	color: #4A5568;
+	margin-bottom: 16rpx;
+	letter-spacing: 2rpx;
+}
+.subtitle.data-v-e4e4508d {
+	font-size: 26rpx;
+	color: #718096;
+	opacity: 0.8;
+}
+.login-content.data-v-e4e4508d {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	flex-shrink: 0;
+}
+.login-btn.data-v-e4e4508d {
+	width: 100%;
+	height: 96rpx;
+	background: #87CEEB;
+	border-radius: 48rpx;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 0 12rpx 32rpx rgba(135, 206, 235, 0.3);
+	border: none;
+	transition: all 0.3s ease;
+}
+.login-btn.data-v-e4e4508d::after {
+	border: none;
+}
+.btn-text.data-v-e4e4508d {
+	font-size: 32rpx;
+	color: #fff;
+	font-weight: 500;
+	letter-spacing: 2rpx;
+}
+.tips.data-v-e4e4508d {
+	margin-top: 48rpx;
+}
+.tips-text.data-v-e4e4508d {
+	font-size: 24rpx;
+	color: #718096;
+	opacity: 0.7;
+}
+
+/* 新增的离线模式样式 */
+.login-btn.primary.data-v-e4e4508d {
+	background: #87CEEB;
+	color: white;
+	border: none;
+}
+.login-btn.secondary.data-v-e4e4508d {
+	background: linear-gradient(135deg, #B8C5F2 0%, #87CEEB 100%);
+	color: #333;
+	border: 1px solid #87CEEB;
+	margin-top: 20rpx;
+}
+.login-btn.data-v-e4e4508d:disabled {
+	background: #cccccc;
+	color: #666666;
+}
+.network-status.data-v-e4e4508d {
+	margin: 30rpx 0;
+	padding: 20rpx;
+	border-radius: 10rpx;
+	text-align: center;
+}
+.network-status.offline.data-v-e4e4508d {
+	background: #fff3cd;
+	border: 1px solid #ffeaa7;
+}
+.status-text.data-v-e4e4508d {
+	font-size: 28rpx;
+	color: #666;
+}
+.network-status.offline .status-text.data-v-e4e4508d {
+	color: #856404;
+}

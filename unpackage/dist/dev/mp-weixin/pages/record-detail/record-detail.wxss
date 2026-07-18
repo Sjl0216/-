@@ -1,0 +1,187 @@
+
+.container.data-v-3aa3bc74 {
+	padding: 30rpx;
+	background: #f5f7fa;
+	min-height: 100vh;
+}
+.image-section.data-v-3aa3bc74 {
+	background: #fff;
+	padding: 20rpx;
+	border-radius: 20rpx;
+	text-align: center;
+	box-shadow: 0 4rpx 12rpx rgba(0, 0, 0, 0.06);
+	margin-bottom: 30rpx;
+}
+.record-image.data-v-3aa3bc74 {
+	max-width: 100%;
+	max-height: 600rpx;
+	border-radius: 12rpx;
+}
+.no-image.data-v-3aa3bc74 {
+	width: 100%;
+	height: 400rpx;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #f5f5f5;
+	border-radius: 12rpx;
+	color: #999;
+	font-size: 28rpx;
+}
+.info-section.data-v-3aa3bc74 {
+	background: #fff;
+	border-radius: 20rpx;
+	padding: 40rpx;
+	box-shadow: 0 4rpx 12rpx rgba(0, 0, 0, 0.06);
+	margin-bottom: 30rpx;
+}
+.main-info.data-v-3aa3bc74 {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 30rpx;
+}
+.mushroom-name.data-v-3aa3bc74 {
+	font-size: 40rpx;
+	font-weight: bold;
+	color: #333;
+}
+.poison-tag.data-v-3aa3bc74 {
+	padding: 10rpx 24rpx;
+	border-radius: 30rpx;
+	font-size: 28rpx;
+	font-weight: bold;
+}
+.poison-tag.safe.data-v-3aa3bc74 {
+	background: #e7f7ed;
+	color: #52c41a;
+}
+.poison-tag.danger.data-v-3aa3bc74 {
+	background: #fff1f0;
+	color: #f5222d;
+}
+.poison-tag.warning.data-v-3aa3bc74 {
+	background: #fff7e6;
+	color: #fa8c16;
+}
+.poison-tag.unknown.data-v-3aa3bc74 {
+	background: #f0f0f0;
+	color: #666;
+}
+.detail-info.data-v-3aa3bc74 {
+	padding: 20rpx 0;
+}
+.info-row.data-v-3aa3bc74 {
+	display: flex;
+	align-items: center;
+	margin-bottom: 15rpx;
+	font-size: 28rpx;
+	color: #333;
+}
+.label.data-v-3aa3bc74 {
+	color: #666;
+	width: 180rpx;
+}
+.value.data-v-3aa3bc74 {
+	flex: 1;
+	color: #333;
+}
+
+/* 反馈按钮 */
+.feedback-section.data-v-3aa3bc74 {
+	margin-bottom: 30rpx;
+}
+.feedback-btn.data-v-3aa3bc74 {
+	width: 100%;
+	height: 90rpx;
+	background: #87CEEB;
+	border-radius: 45rpx;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 30rpx;
+	color: #fff;
+	font-weight: 500;
+	border: none;
+	box-shadow: 0 4rpx 12rpx rgba(135, 206, 235, 0.3);
+}
+.feedback-btn.data-v-3aa3bc74::after {
+	border: none;
+}
+.feedback-icon.data-v-3aa3bc74 {
+	font-size: 36rpx;
+	margin-right: 10rpx;
+}
+.feedback-text.data-v-3aa3bc74 {
+	font-size: 30rpx;
+}
+
+/* 菌类百科详情 */
+.encyclopedia-section.data-v-3aa3bc74 {
+	background: #fff;
+	border-radius: 20rpx;
+	padding: 40rpx;
+	box-shadow: 0 4rpx 12rpx rgba(0, 0, 0, 0.06);
+}
+.section-title.data-v-3aa3bc74 {
+	font-size: 32rpx;
+	font-weight: bold;
+	color: #333;
+	display: block;
+	margin-bottom: 20rpx;
+	border-bottom: 2rpx solid #f0f0f0;
+	padding-bottom: 10rpx;
+}
+.encyclopedia-content.data-v-3aa3bc74 {
+	margin-top: 20rpx;
+}
+.description-box.data-v-3aa3bc74 {
+	background: #fafafa;
+	border-radius: 12rpx;
+	padding: 20rpx;
+	margin-bottom: 20rpx;
+}
+.description-box.warning-box.data-v-3aa3bc74 {
+	background: #fff7e6;
+	border: 1rpx solid #ffa940;
+}
+.box-title.data-v-3aa3bc74 {
+	font-size: 28rpx;
+	font-weight: bold;
+	color: #333;
+	margin-bottom: 10rpx;
+}
+.description-text.data-v-3aa3bc74 {
+	font-size: 26rpx;
+	color: #666;
+	line-height: 1.8;
+	display: block;
+}
+
+/* 未知菌类提示 */
+.unknown-section.data-v-3aa3bc74 {
+	background: #fff;
+	border-radius: 20rpx;
+	padding: 40rpx;
+	box-shadow: 0 4rpx 12rpx rgba(0, 0, 0, 0.06);
+}
+.unknown-content.data-v-3aa3bc74 {
+	text-align: center;
+	padding: 40rpx 20rpx;
+	background: #f5f5f5;
+	border-radius: 12rpx;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.unknown-text.data-v-3aa3bc74 {
+	font-size: 30rpx;
+	color: #666;
+	margin-bottom: 20rpx;
+}
+.unknown-tips.data-v-3aa3bc74 {
+	font-size: 24rpx;
+	color: #999;
+	line-height: 1.6;
+	max-width: 500rpx;
+}

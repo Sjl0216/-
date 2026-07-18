@@ -1,0 +1,62 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/home/home",
+    "pages/record-list/record-list",
+    "pages/mushroom-list/mushroom-list",
+    "pages/settings/settings",
+    "pages/result/result",
+    "pages/record-detail/record-detail",
+    "pages/mushroom-detail/mushroom-detail",
+    "pages/feedback/feedback",
+    "pages/feedback-list/feedback-list",
+    "pages/feedback-result/feedback-result",
+    "pages/user-profile/user-profile",
+    "pages/index/index"
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "野生菌智慧识别",
+    "navigationBarBackgroundColor": "#B8C5F2",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#B8C5F2",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "static/tabbar/home.png",
+        "selectedIconPath": "static/tabbar/home-active.png"
+      },
+      {
+        "pagePath": "pages/record-list/record-list",
+        "text": "记录",
+        "iconPath": "static/tabbar/record.png",
+        "selectedIconPath": "static/tabbar/record-active.png"
+      },
+      {
+        "pagePath": "pages/mushroom-list/mushroom-list",
+        "text": "科普",
+        "iconPath": "static/tabbar/encyclopedia.png",
+        "selectedIconPath": "static/tabbar/encyclopedia-active.png"
+      },
+      {
+        "pagePath": "pages/settings/settings",
+        "text": "设置",
+        "iconPath": "static/tabbar/settings.png",
+        "selectedIconPath": "static/tabbar/settings-active.png"
+      }
+    ]
+  },
+  "copy": [
+    {
+      "from": "pkg-ai/models/",
+      "to": "pkg-ai/models/"
+    }
+  ],
+  "usingComponents": {}
+}

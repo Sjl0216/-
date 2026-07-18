@@ -1,0 +1,284 @@
+
+/* 认证状态横幅样式 */
+.status-banner.data-v-07e72d3c {
+  padding: 20rpx 30rpx;
+  text-align: center;
+  font-size: 26rpx;
+}
+.status-banner.info.data-v-07e72d3c {
+  background: #E7F7ED;
+  color: #52C41A;
+}
+.status-banner.warning.data-v-07e72d3c {
+  background: #FFFBE6;
+  color: #FAAD14;
+}
+.status-banner.error.data-v-07e72d3c {
+  background: #FFF2F0;
+  color: #FF4D4F;
+}
+.banner-text.data-v-07e72d3c {
+  font-weight: 500;
+}
+.container.data-v-07e72d3c {
+  min-height: 100vh;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.header-area.data-v-07e72d3c {
+  padding: 40rpx 30rpx 30rpx;
+  background: linear-gradient(180deg, #B8C5F2 0%, #D4DBF5 100%);
+}
+.title.data-v-07e72d3c {
+  font-size: 38rpx;
+  font-weight: 600;
+  text-align: center;
+  color: #fff;
+  letter-spacing: 2rpx;
+}
+.content-area.data-v-07e72d3c {
+  flex: 1;
+  padding: 30rpx;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.canvas-box.data-v-07e72d3c {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30rpx;
+}
+
+/* 图片预览区域样式 */
+.image-preview-section.data-v-07e72d3c {
+  background: #fff;
+  padding: 30rpx;
+  border-radius: 20rpx;
+  box-shadow: 0 2rpx 16rpx rgba(184, 197, 242, 0.1);
+  margin-bottom: 30rpx;
+}
+.preview-header.data-v-07e72d3c {
+  margin-bottom: 20rpx;
+}
+.section-title.data-v-07e72d3c {
+  font-size: 32rpx;
+  font-weight: 600;
+  color: #333;
+  position: relative;
+  padding-left: 20rpx;
+}
+.section-title.data-v-07e72d3c::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 6rpx;
+  height: 32rpx;
+  background: #87CEEB;
+  border-radius: 3rpx;
+}
+.image-wrapper.data-v-07e72d3c {
+  position: relative;
+  display: inline-block; /* 让容器按内容撑开 */
+  background: #f5f7fa;
+  border-radius: 16rpx;
+  overflow: hidden;
+}
+.preview-image.data-v-07e72d3c {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.overlay-canvas.data-v-07e72d3c {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  pointer-events: none;
+  background-color: transparent; /* 防止某些机型出现不透明 */
+}
+
+/* 无图片占位符样式 */
+.no-image-placeholder.data-v-07e72d3c {
+  background: #fff;
+  padding: 60rpx 30rpx;
+  border-radius: 20rpx;
+  box-shadow: 0 2rpx 16rpx rgba(184, 197, 242, 0.1);
+  margin-bottom: 30rpx;
+  text-align: center;
+}
+.placeholder-content.data-v-07e72d3c {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.placeholder-text.data-v-07e72d3c {
+  font-size: 28rpx;
+  color: #999;
+  margin-top: 20rpx;
+}
+canvas.data-v-07e72d3c {
+  border-radius: 16rpx;
+  background: #f5f7fa;
+  box-shadow: 0 2rpx 16rpx rgba(184, 197, 242, 0.1);
+}
+.button-area.data-v-07e72d3c {
+  padding: 30rpx;
+  padding-bottom: calc(30rpx + env(safe-area-inset-bottom));
+  background: #fff;
+  box-shadow: 0 -4rpx 16rpx rgba(0, 0, 0, 0.05);
+}
+.identify-btn.data-v-07e72d3c {
+  width: 100%;
+  height: 96rpx;
+  background: #87CEEB;
+  border-radius: 48rpx;
+  color: #fff;
+  font-size: 32rpx;
+  font-weight: 500;
+  line-height: 96rpx;
+  text-align: center;
+  box-shadow: 0 8rpx 24rpx rgba(135, 206, 235, 0.3);
+  border: none;
+  letter-spacing: 2rpx;
+}
+.identify-btn.data-v-07e72d3c::after {
+  border: none;
+}
+.identify-btn.data-v-07e72d3c:active {
+  opacity: 0.9;
+  transform: scale(0.98);
+}
+.download-btn.data-v-07e72d3c {
+  width: 100%;
+  height: 96rpx;
+  background: #FFA500;
+  border-radius: 48rpx;
+  color: #fff;
+  font-size: 32rpx;
+  font-weight: 500;
+  line-height: 96rpx;
+  box-shadow: 0 8rpx 24rpx rgba(255, 165, 0, 0.3);
+  border: none;
+  letter-spacing: 2rpx;
+  margin-bottom: 30rpx;
+}
+.download-btn.data-v-07e72d3c::after {
+  border: none;
+}
+.download-btn.data-v-07e72d3c:active {
+  opacity: 0.9;
+  transform: scale(0.98);
+}
+.model-status.data-v-07e72d3c {
+  background: #fff3cd;
+  border: 2rpx solid #ffeaa7;
+  border-radius: 16rpx;
+  padding: 30rpx;
+  text-align: center;
+  margin-top: 20rpx;
+}
+.status-text.data-v-07e72d3c {
+  display: block;
+  color: #856404;
+  font-size: 28rpx;
+  margin: 10rpx 0;
+}
+.result-list.data-v-07e72d3c {
+  background: #fff;
+  padding: 30rpx;
+  border-radius: 20rpx;
+  box-shadow: 0 2rpx 16rpx rgba(184, 197, 242, 0.1);
+  width: 100%;
+  max-width: 600rpx;
+}
+.result-header.data-v-07e72d3c {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24rpx;
+  padding-bottom: 20rpx;
+  border-bottom: 2rpx solid #F0F2F5;
+}
+.result-title.data-v-07e72d3c {
+  font-weight: 600;
+  font-size: 32rpx;
+  color: #333;
+}
+.result-count.data-v-07e72d3c {
+  font-size: 24rpx;
+  color: #999;
+}
+.result-item.data-v-07e72d3c {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24rpx 0;
+  border-bottom: 1rpx solid #f0f0f0;
+  transition: background-color 0.2s;
+}
+.result-item.data-v-07e72d3c:last-of-type {
+  border-bottom: none;
+}
+.result-item.data-v-07e72d3c:active {
+  background-color: #F8F9FA;
+}
+.item-left.data-v-07e72d3c {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+.name.data-v-07e72d3c {
+  color: #333;
+  font-size: 30rpx;
+  font-weight: 500;
+}
+.tag.data-v-07e72d3c {
+  margin-left: 16rpx;
+  font-size: 22rpx;
+  padding: 6rpx 14rpx;
+  border-radius: 12rpx;
+  font-weight: 500;
+}
+.tag-safe.data-v-07e72d3c {
+  background: #E7F7ED;
+  color: #52C41A;
+}
+.tag-danger.data-v-07e72d3c {
+  background: #B8E0F2;
+  color: #1E1E1E;
+}
+.tag-warning.data-v-07e72d3c {
+  background: #B8E0F2;
+  color: #1E1E1E;
+}
+.item-right.data-v-07e72d3c {
+  display: flex;
+  align-items: center;
+}
+.score.data-v-07e72d3c {
+  color: #2894FA;
+  font-weight: 600;
+  font-size: 28rpx;
+  margin-right: 12rpx;
+}
+.arrow.data-v-07e72d3c {
+  color: #C8CCD4;
+  font-size: 32rpx;
+  font-weight: 300;
+}
+.safe-tip.data-v-07e72d3c {
+  margin-top: 30rpx;
+  font-size: 24rpx;
+  color: #FF6B6B;
+  text-align: center;
+  background: #FFF5F5;
+  padding: 20rpx;
+  border-radius: 16rpx;
+  line-height: 1.6;
+}

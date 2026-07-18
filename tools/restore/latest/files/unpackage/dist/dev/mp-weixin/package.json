@@ -1,0 +1,21 @@
+{
+  "name": "uni-app-mushroom-weichat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "dev:mp-weixin": "uni -p mp-weixin",
+    "build:mp-weixin": "uni build -p mp-weixin",
+    "blackbox:align:batch1": "node tools/blackbox-align-batch1.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tensorflow/tfjs-backend-cpu": "^2.8.6",
+    "@tensorflow/tfjs-converter": "^2.8.6",
+    "@tensorflow/tfjs-core": "^2.8.6",
+    "@tensorflow/tfjs-layers": "^2.8.6",
+    "fetch-wechat": "^0.0.3"
+  }
+}

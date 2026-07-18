@@ -1,0 +1,16 @@
+{
+  "version": "2026-04-02",
+  "description": "Latest stable restore manifest for WeChat Mini Program dist fixes.",
+  "items": [
+    {
+      "source": "files/unpackage/dist/dev/mp-weixin/project.config.json",
+      "target": "unpackage/dist/dev/mp-weixin/project.config.json",
+      "reason": "Restore the stable WeChat project configuration after HBuilderX recompilation."
+    },
+    {
+      "source": "files/unpackage/dist/dev/mp-weixin/package.json",
+      "target": "unpackage/dist/dev/mp-weixin/package.json",
+      "reason": "Restore the npm entry file required by WeChat DevTools build npm."
+    }
+  ]
+}
